@@ -11,6 +11,40 @@ body {
     margin: 0;
 }
 
+.path-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.url-path {
+    background: #595260;
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-family: monospace;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.full-url {
+    background: #595260;
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-family: monospace;
+    color: #B2B1B9;
+    word-break: break-all;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.path-segment {
+    color: #FFD523;
+}
+
+.path-separator {
+    color: #B2B1B9;
+    margin: 0 5px;
+}
+
 .file-explorer {
     display: flex;
     gap: 20px;
