@@ -1,13 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Project Page</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>Welcome to My Project Page</h1>
-    <p>This is a simple project page hosted on GitHub Pages.</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wordsets Browser</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Wordsets Browser</h1>
+      <div class="file-explorer">
+        <div class="folders" id="folderList"></div>
+        <div class="files" id="fileList"></div>
+      </div>
+      <div id="jsonContent" class="json-content"></div>
+    </div>
+
+    <script>
+      const baseUrl = "https://lowkeyboard.github.io/langlang";
+      const folders = ["wordsets/wordset_one", "wordsets/wordset_two"]; // Add your folders here
+
+      function displayFolders() {
+        const folderList = document.getElementById("folderList");
+        folders.forEach((folder) => {
+          const folderDiv = document.createElement("div");
+          folderDiv.className = "folder";
+          folderDiv.textContent = folder;
+          folderDiv.onclick = () => loadFiles(folder);
+          folderList.appendChild(folderDiv);
+        });
+      }
+
+      async function loadFiles(folderPath) {
+        const fileList = document.getElementById("fileList");
+        fileList.innerHTML = ""; // Clear previous files
+        document.getElementById("jsonContent").innerHTML = ""; // Clear content area
+
+        try {
+          const files = [`${folderPath}/wordset_1_german.json`]; // Add your known files here
+
+          files.forEach((file) => {
+            const fileDiv = document.createElement("div");
+            fileDiv.className = "file";
+            fileDiv.textContent = file.split("/").pop();
+            fileDiv.onclick = () => fetchAndDisplayJson(`${baseUrl}/${file}`);
+            fileList.appendChild(fileDiv);
+          });
+        } catch (error) {
+          console.error("Error loading files:", error);
+          fileList.innerHTML = "<p>Error loading files</p>";
+        }
+      }
+
+      async function fetchAndDisplayJson(url) {
+        const contentDiv = document.getElementById("jsonContent");
+        contentDiv.innerHTML = "Loading...";
+
+        try {
+          const response = await fetch(url);
+          if (!response.ok) {
+            throw new Error("Network response was not ok");
+          }
+          const data = await response.json();
+
+          // Create copy button
+          const copyButton = document.createElement("button");
+          copyButton.className = "copy-button";
+          copyButton.textContent = "Copy All";
+          copyButton.onclick = () => copyJsonToClipboard(data);
+
+          // Format and display the JSON
+          const preElement = document.createElement("pre");
+          preElement.textContent = JSON.stringify(data, null, 2);
+          
+          contentDiv.innerHTML = "";
+          contentDiv.appendChild(copyButton);
+          contentDiv.appendChild(preElement);
+        } catch (error) {
+          console.error("Error fetching JSON:", error);
+          contentDiv.innerHTML = `<p class="error">Error loading JSON file: ${error.message}</p>`;
+        }
+      }
+
+      async function copyJsonToClipboard(data) {
+        try {
+          const jsonString = JSON.stringify(data, null, 2);
+          await navigator.clipboard.writeText(jsonString);
+          
+          // Visual feedback
+          const copyButton = document.querySelector('.copy-button');
+          copyButton.textContent = "Copied!";
+          copyButton.classList.add('copied');
+          
+          // Reset button after 2 seconds
+          setTimeout(() => {
+            copyButton.textContent = "Copy All";
+            copyButton.classList.remove('copied');
+          }, 2000);
+        } catch (error) {
+          console.error('Failed to copy:', error);
+        }
+      }
+
+      // Initialize the folder list when the page loads
+      displayFolders();
+    </script>
+  </body>
 </html>
