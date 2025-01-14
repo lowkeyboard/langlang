@@ -1,0 +1,96 @@
+{
+  "wordset": {
+    "words": [
+      {
+        "word": "Ciao",
+        "translation": "Hello/Hi",
+        "example_sentence": "Ciao, come stai?",
+        "sentence_translation": "Hello, how are you?"
+      },
+      {
+        "word": "Buongiorno",
+        "translation": "Good morning",
+        "example_sentence": "Buongiorno, signore.",
+        "sentence_translation": "Good morning, sir."
+      },
+      {
+        "word": "Buonasera",
+        "translation": "Good evening",
+        "example_sentence": "Buonasera, tutto bene?",
+        "sentence_translation": "Good evening, everything okay?"
+      },
+      {
+        "word": "Arrivederci",
+        "translation": "Goodbye",
+        "example_sentence": "Arrivederci, a domani!",
+        "sentence_translation": "Goodbye, see you tomorrow!"
+      },
+      {
+        "word": "Grazie",
+        "translation": "Thank you",
+        "example_sentence": "Grazie per il tuo aiuto.",
+        "sentence_translation": "Thank you for your help."
+      },
+      {
+        "word": "Prego",
+        "translation": "You're welcome",
+        "example_sentence": "Prego, è stato un piacere.",
+        "sentence_translation": "You're welcome, it was a pleasure."
+      },
+      {
+        "word": "Scusa",
+        "translation": "Excuse me/Sorry",
+        "example_sentence": "Scusa, dove si trova il bagno?",
+        "sentence_translation": "Excuse me, where is the bathroom?"
+      },
+      {
+        "word": "Per favore",
+        "translation": "Please",
+        "example_sentence": "Un caffè, per favore.",
+        "sentence_translation": "A coffee, please."
+      },
+      {
+        "word": "Come ti chiami?",
+        "translation": "What is your name?",
+        "example_sentence": "Come ti chiami?",
+        "sentence_translation": "What is your name?"
+      },
+      {
+        "word": "Piacere",
+        "translation": "Nice to meet you",
+        "example_sentence": "Piacere di conoscerti.",
+        "sentence_translation": "Nice to meet you."
+      }
+    ]
+  },
+  "dialogue": {
+    "text": [
+      "Ciao! Come ti chiami?",
+      "Mi chiamo Luca. E tu?",
+      "Io sono Maria. Piacere di conoscerti!",
+      "Piacere mio. Buongiorno, Maria.",
+      "Grazie, Luca. Un caffè, per favore.",
+      "Prego. Buonasera e arrivederci!",
+      "Arrivederci, a presto!"
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "How do you say 'Good evening' in Italian?",
+        "options": ["Buongiorno", "Buonasera", "Arrivederci"],
+        "correct_answer": "Buonasera"
+      },
+      {
+        "question": "What does 'Grazie' mean?",
+        "options": ["You're welcome", "Thank you", "Excuse me"],
+        "correct_answer": "Thank you"
+      },
+      {
+        "question": "What would you say if you want to ask someone's name?",
+        "options": ["Scusa", "Come ti chiami?", "Prego"],
+        "correct_answer": "Come ti chiami?"
+      }
+    ]
+  }
+}

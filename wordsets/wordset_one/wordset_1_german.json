@@ -1,0 +1,96 @@
+{
+  "wordset": {
+    "words": [
+      {
+        "word": "Hallo",
+        "translation": "Hello",
+        "example_sentence": "Hallo, wie geht's?",
+        "sentence_translation": "Hello, how are you?"
+      },
+      {
+        "word": "Guten Morgen",
+        "translation": "Good morning",
+        "example_sentence": "Guten Morgen, Herr Müller.",
+        "sentence_translation": "Good morning, Mr. Müller."
+      },
+      {
+        "word": "Guten Abend",
+        "translation": "Good evening",
+        "example_sentence": "Guten Abend, alles in Ordnung?",
+        "sentence_translation": "Good evening, everything okay?"
+      },
+      {
+        "word": "Auf Wiedersehen",
+        "translation": "Goodbye",
+        "example_sentence": "Auf Wiedersehen, bis morgen!",
+        "sentence_translation": "Goodbye, see you tomorrow!"
+      },
+      {
+        "word": "Danke",
+        "translation": "Thank you",
+        "example_sentence": "Danke für Ihre Hilfe.",
+        "sentence_translation": "Thank you for your help."
+      },
+      {
+        "word": "Bitte",
+        "translation": "You're welcome/Please",
+        "example_sentence": "Bitte, es war mir ein Vergnügen.",
+        "sentence_translation": "You're welcome, it was my pleasure."
+      },
+      {
+        "word": "Entschuldigung",
+        "translation": "Excuse me/Sorry",
+        "example_sentence": "Entschuldigung, wo ist die Toilette?",
+        "sentence_translation": "Excuse me, where is the bathroom?"
+      },
+      {
+        "word": "Wie heißt du?",
+        "translation": "What is your name?",
+        "example_sentence": "Wie heißt du?",
+        "sentence_translation": "What is your name?"
+      },
+      {
+        "word": "Freut mich",
+        "translation": "Nice to meet you",
+        "example_sentence": "Freut mich, Sie kennenzulernen.",
+        "sentence_translation": "Nice to meet you."
+      },
+      {
+        "word": "Tschüss",
+        "translation": "Bye",
+        "example_sentence": "Tschüss, bis bald!",
+        "sentence_translation": "Bye, see you soon!"
+      }
+    ]
+  },
+  "dialogue": {
+    "text": [
+      "Hallo! Wie heißt du?",
+      "Ich heiße Hans. Und du?",
+      "Ich bin Anna. Freut mich, dich kennenzulernen!",
+      "Freut mich auch. Guten Morgen, Anna.",
+      "Danke, Hans. Ein Kaffee, bitte.",
+      "Entschuldigung, bis später!",
+      "Auf Wiedersehen!"
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "How do you say 'Goodbye' in German?",
+        "options": ["Tschüss", "Hallo", "Bitte"],
+        "correct_answer": "Tschüss"
+      },
+      {
+        "question": "What does 'Danke' mean?",
+        "options": ["You're welcome", "Excuse me", "Thank you"],
+        "correct_answer": "Thank you"
+      },
+      {
+        "question": "What would you say if you meet someone new?",
+        "options": ["Wie heißt du?", "Auf Wiedersehen", "Bitte"],
+        "correct_answer": "Wie heißt du?"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "wordset": {
+    "words": [
+      {
+        "word": "Bonjour",
+        "translation": "Hello/Good morning",
+        "example_sentence": "Bonjour, comment ça va?",
+        "sentence_translation": "Hello, how are you?"
+      },
+      {
+        "word": "Bonsoir",
+        "translation": "Good evening",
+        "example_sentence": "Bonsoir, tout va bien?",
+        "sentence_translation": "Good evening, everything okay?"
+      },
+      {
+        "word": "Au revoir",
+        "translation": "Goodbye",
+        "example_sentence": "Au revoir, à demain!",
+        "sentence_translation": "Goodbye, see you tomorrow!"
+      },
+      {
+        "word": "Merci",
+        "translation": "Thank you",
+        "example_sentence": "Merci pour ton aide.",
+        "sentence_translation": "Thank you for your help."
+      },
+      {
+        "word": "De rien",
+        "translation": "You're welcome",
+        "example_sentence": "De rien, c'était un plaisir.",
+        "sentence_translation": "You're welcome, it was a pleasure."
+      },
+      {
+        "word": "Pardon",
+        "translation": "Excuse me/Sorry",
+        "example_sentence": "Pardon, où sont les toilettes?",
+        "sentence_translation": "Excuse me, where is the bathroom?"
+      },
+      {
+        "word": "S'il vous plaît",
+        "translation": "Please",
+        "example_sentence": "Un café, s'il vous plaît.",
+        "sentence_translation": "A coffee, please."
+      },
+      {
+        "word": "Comment vous appelez-vous?",
+        "translation": "What is your name?",
+        "example_sentence": "Comment vous appelez-vous?",
+        "sentence_translation": "What is your name?"
+      },
+      {
+        "word": "Enchanté",
+        "translation": "Nice to meet you",
+        "example_sentence": "Enchanté de faire votre connaissance.",
+        "sentence_translation": "Nice to meet you."
+      },
+      {
+        "word": "Salut",
+        "translation": "Hi",
+        "example_sentence": "Salut, comment ça va?",
+        "sentence_translation": "Hi, how are you?"
+      }
+    ]
+  },
+  "dialogue": {
+    "text": [
+      "Bonjour! Comment vous appelez-vous?",
+      "Je m'appelle Pierre. Et vous?",
+      "Je suis Claire. Enchanté de faire votre connaissance!",
+      "Enchanté. Merci, Claire.",
+      "De rien, Pierre. Un café, s'il vous plaît.",
+      "Pardon, à bientôt!",
+      "Au revoir!"
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "How do you say 'Good morning' in French?",
+        "options": ["Bonsoir", "Bonjour", "Merci"],
+        "correct_answer": "Bonjour"
+      },
+      {
+        "question": "What does 'Merci' mean?",
+        "options": ["Thank you", "Excuse me", "Please"],
+        "correct_answer": "Thank you"
+      },
+      {
+        "question": "What would you say if you want to introduce yourself?",
+        "options": ["Comment vous appelez-vous?", "Pardon", "Au revoir"],
+        "correct_answer": "Comment vous appelez-vous?"
+      }
+    ]
+  }
+}
