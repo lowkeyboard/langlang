@@ -1,0 +1,52 @@
+{
+  "stories": [
+    {
+      "category": "Greetings & Introductions",
+      "title": "Anna incontra un nuovo amico",
+      "story": "Anna è nuova in città. Cammina nel parco. Vede un ragazzo che gioca con un cane. Anna dice: 'Ciao! Come ti chiami?' Il ragazzo risponde: 'Mi chiamo Pietro. E tu?' Anna sorride e dice: 'Mi chiamo Anna. Il tuo cane è molto carino!' Pietro dice: 'Grazie! Si chiama Max.' Anna e Pietro diventano amici.",
+      "questions": [
+        {
+          "question": "Dove incontra Anna Pietro?",
+          "options": ["In un caffè", "In un parco", "A scuola"],
+          "answer": "In un parco"
+        },
+        {
+          "question": "Come si chiama il cane di Pietro?",
+          "options": ["Leo", "Max", "Tom"],
+          "answer": "Max"
+        },
+        {
+          "question": "Cosa dice Anna a Pietro?",
+          "options": [
+            "Tu sei mio fratello",
+            "Il tuo cane è molto carino",
+            "Mi piacciono i gatti"
+          ],
+          "answer": "Il tuo cane è molto carino"
+        }
+      ]
+    },
+    {
+      "category": "Daily Routines",
+      "title": "La routine mattutina di Tom",
+      "story": "Tom si sveglia alle sette. Si lava i denti e si veste. Poi fa colazione. Beve il tè e mangia il pane con la marmellata. Dopo va a scuola. Alle otto iniziano le lezioni. A Tom piace molto la matematica.",
+      "questions": [
+        {
+          "question": "A che ora si sveglia Tom?",
+          "options": ["Alle otto", "Alle sette", "Alle sei"],
+          "answer": "Alle sette"
+        },
+        {
+          "question": "Cosa beve Tom a colazione?",
+          "options": ["Caffè", "Tè", "Succo d'arancia"],
+          "answer": "Tè"
+        },
+        {
+          "question": "Qual è la materia preferita di Tom?",
+          "options": ["Matematica", "Storia", "Italiano"],
+          "answer": "Matematica"
+        }
+      ]
+    }
+  ]
+}

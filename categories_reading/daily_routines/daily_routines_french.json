@@ -1,0 +1,27 @@
+{
+  "title": "Daily Routines - French",
+  "stories": [
+    {
+      "title": "Morning Routine",
+      "text": "Je me réveille à sept heures du matin. D'abord, je prends une douche et je me brosse les dents. Ensuite, je prends mon petit-déjeuner: du café et des croissants. À huit heures, je pars au travail.",
+      "translation": "I wake up at seven in the morning. First, I take a shower and brush my teeth. Then, I have breakfast: coffee and croissants. At eight o'clock, I leave for work.",
+      "vocabulary": [
+        {"word": "Je me réveille", "meaning": "I wake up"},
+        {"word": "Je prends une douche", "meaning": "I take a shower"},
+        {"word": "Je me brosse les dents", "meaning": "I brush my teeth"},
+        {"word": "Le petit-déjeuner", "meaning": "Breakfast"}
+      ]
+    },
+    {
+      "title": "Evening at Home",
+      "text": "Après le travail, je rentre chez moi à dix-huit heures. Je prépare le dîner et je mange avec ma famille. Nous parlons de notre journée. À vingt-deux heures, je me couche.",
+      "translation": "After work, I return home at 6 PM. I prepare dinner and eat with my family. We talk about our day. At 10 PM, I go to bed.",
+      "vocabulary": [
+        {"word": "Je rentre", "meaning": "I return"},
+        {"word": "Je prépare", "meaning": "I prepare"},
+        {"word": "Le dîner", "meaning": "Dinner"},
+        {"word": "Je me couche", "meaning": "I go to bed"}
+      ]
+    }
+  ]
+} 

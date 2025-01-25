@@ -1,0 +1,27 @@
+{
+  "title": "Travel & Directions - Spanish",
+  "stories": [
+    {
+      "title": "Asking for Directions",
+      "text": "Estoy perdido en Madrid. Me acerco a alguien y pregunto: '¡Disculpe! ¿Dónde está la Plaza Mayor?' 'Siga recto dos calles, luego gire a la derecha. Está a cinco minutos caminando.' 'Muchas gracias.'",
+      "translation": "I'm lost in Madrid. I approach someone and ask: 'Excuse me! Where is Plaza Mayor?' 'Go straight ahead for two blocks, then turn right. It's a five-minute walk.' 'Thank you very much.'",
+      "vocabulary": [
+        {"word": "¿Dónde está?", "meaning": "Where is?"},
+        {"word": "Siga recto", "meaning": "Go straight ahead"},
+        {"word": "Gire a la derecha", "meaning": "Turn right"},
+        {"word": "Caminando", "meaning": "Walking"}
+      ]
+    },
+    {
+      "title": "Taking the Metro",
+      "text": "En la estación de metro, miro el mapa. 'Perdón, ¿cómo llego al museo?' pregunto al empleado. 'Tome la línea roja hasta Sol, luego cambie a la línea azul. Son tres paradas.' 'Gracias.'",
+      "translation": "At the metro station, I look at the map. 'Excuse me, how do I get to the museum?' I ask the employee. 'Take the red line to Sol, then change to the blue line. It's three stops.' 'Thanks.'",
+      "vocabulary": [
+        {"word": "Estación", "meaning": "Station"},
+        {"word": "¿Cómo llego?", "meaning": "How do I get?"},
+        {"word": "Línea", "meaning": "Line"},
+        {"word": "Paradas", "meaning": "Stops"}
+      ]
+    }
+  ]
+} 

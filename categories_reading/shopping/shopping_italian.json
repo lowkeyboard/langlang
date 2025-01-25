@@ -1,0 +1,27 @@
+{
+  "title": "Shopping & Money - Italian",
+  "stories": [
+    {
+      "title": "At the Market",
+      "text": "Sono al mercato per comprare della frutta. 'Buongiorno,' dico al venditore. 'Quanto costano le mele?' 'Due euro al chilo,' risponde. 'Ne prendo un chilo, per favore.' 'Ecco a lei. Sono due euro.'",
+      "translation": "I'm at the market to buy fruit. 'Good morning,' I say to the vendor. 'How much are the apples?' 'Two euros per kilo,' he replies. 'I'll take a kilo, please.' 'Here you are. That's two euros.'",
+      "vocabulary": [
+        {"word": "Quanto costa", "meaning": "How much does it cost"},
+        {"word": "Per favore", "meaning": "Please"},
+        {"word": "Euro", "meaning": "Euro"},
+        {"word": "Al chilo", "meaning": "Per kilo"}
+      ]
+    },
+    {
+      "title": "Shopping for Clothes",
+      "text": "Entro in un negozio di abbigliamento. 'Posso aiutarla?' chiede la commessa. 'Sì, cerco una camicia blu.' 'Che taglia porta?' 'La medium.' 'Ecco, il camerino è là. Costa quaranta euro.'",
+      "translation": "I enter a clothing store. 'Can I help you?' asks the saleswoman. 'Yes, I'm looking for a blue shirt.' 'What size do you wear?' 'Medium.' 'Here, the fitting room is there. It costs forty euros.'",
+      "vocabulary": [
+        {"word": "Negozio", "meaning": "Store"},
+        {"word": "Taglia", "meaning": "Size"},
+        {"word": "Camerino", "meaning": "Fitting room"},
+        {"word": "Costa", "meaning": "It costs"}
+      ]
+    }
+  ]
+} 

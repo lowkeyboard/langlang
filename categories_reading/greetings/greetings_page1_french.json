@@ -1,0 +1,52 @@
+{
+  "stories": [
+    {
+      "category": "Greetings & Introductions",
+      "title": "Anna rencontre un nouvel ami",
+      "story": "Anna est nouvelle en ville. Elle se promène dans le parc. Elle voit un garçon qui joue avec un chien. Anna dit : 'Bonjour ! Comment tu t'appelles ?' Le garçon répond : 'Je m'appelle Pierre. Et toi ?' Anna sourit et dit : 'Je m'appelle Anna. Ton chien est très mignon !' Pierre dit : 'Merci ! Il s'appelle Max.' Anna et Pierre deviennent amis.",
+      "questions": [
+        {
+          "question": "Où Anna rencontre-t-elle Pierre ?",
+          "options": ["Dans un café", "Dans un parc", "À l'école"],
+          "answer": "Dans un parc"
+        },
+        {
+          "question": "Comment s'appelle le chien de Pierre ?",
+          "options": ["Léo", "Max", "Tom"],
+          "answer": "Max"
+        },
+        {
+          "question": "Que dit Anna à Pierre ?",
+          "options": [
+            "Tu es mon frère",
+            "Ton chien est très mignon",
+            "J'aime les chats"
+          ],
+          "answer": "Ton chien est très mignon"
+        }
+      ]
+    },
+    {
+      "category": "Daily Routines",
+      "title": "La routine du matin de Tom",
+      "story": "Tom se réveille à sept heures. Il se brosse les dents et s'habille. Ensuite, il prend son petit-déjeuner. Il boit du thé et mange du pain avec de la confiture. Après cela, il va à l'école. À huit heures, les cours commencent. Tom aime les mathématiques.",
+      "questions": [
+        {
+          "question": "À quelle heure Tom se réveille-t-il ?",
+          "options": ["À huit heures", "À sept heures", "À six heures"],
+          "answer": "À sept heures"
+        },
+        {
+          "question": "Que boit Tom au petit-déjeuner ?",
+          "options": ["Du café", "Du thé", "Du jus d'orange"],
+          "answer": "Du thé"
+        },
+        {
+          "question": "Quelle matière préfère Tom ?",
+          "options": ["Les mathématiques", "L'histoire", "Le français"],
+          "answer": "Les mathématiques"
+        }
+      ]
+    }
+  ]
+}

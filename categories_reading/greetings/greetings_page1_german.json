@@ -1,0 +1,52 @@
+{
+  "stories": [
+    {
+      "category": "Greetings & Introductions",
+      "title": "Anna trifft einen neuen Freund",
+      "story": "Anna ist neu in der Stadt. Sie geht in den Park. Dort sieht sie einen Jungen mit einem Hund spielen. Anna sagt: 'Hallo! Wie heißt du?' Der Junge antwortet: 'Ich heiße Peter. Und du?' Anna lächelt und sagt: 'Ich heiße Anna. Dein Hund ist sehr süß!' Peter sagt: 'Danke! Er heißt Max.' Anna und Peter werden Freunde.",
+      "questions": [
+        {
+          "question": "Wo trifft Anna Peter?",
+          "options": ["Im Café", "Im Park", "In der Schule"],
+          "answer": "Im Park"
+        },
+        {
+          "question": "Wie heißt Peters Hund?",
+          "options": ["Leo", "Max", "Tom"],
+          "answer": "Max"
+        },
+        {
+          "question": "Was sagt Anna zu Peter?",
+          "options": [
+            "Du bist mein Bruder",
+            "Dein Hund ist sehr süß",
+            "Ich mag Katzen"
+          ],
+          "answer": "Dein Hund ist sehr süß"
+        }
+      ]
+    },
+    {
+      "category": "Daily Routines",
+      "title": "Toms Morgenroutine",
+      "story": "Tom steht um sieben Uhr auf. Er putzt seine Zähne und zieht sich an. Dann isst er Frühstück. Er trinkt Tee und isst Brot mit Marmelade. Danach geht er zur Schule. Um acht Uhr beginnt der Unterricht. Tom mag Mathematik am liebsten.",
+      "questions": [
+        {
+          "question": "Wann steht Tom auf?",
+          "options": ["Um acht Uhr", "Um sieben Uhr", "Um sechs Uhr"],
+          "answer": "Um sieben Uhr"
+        },
+        {
+          "question": "Was trinkt Tom zum Frühstück?",
+          "options": ["Kaffee", "Tee", "Orangensaft"],
+          "answer": "Tee"
+        },
+        {
+          "question": "Welches Fach mag Tom am liebsten?",
+          "options": ["Mathematik", "Geschichte", "Deutsch"],
+          "answer": "Mathematik"
+        }
+      ]
+    }
+  ]
+}

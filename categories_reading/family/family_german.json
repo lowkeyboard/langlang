@@ -1,0 +1,27 @@
+{
+  "title": "Family & Friends - German",
+  "stories": [
+    {
+      "title": "Family Dinner",
+      "text": "Heute Abend haben wir ein Familienessen. Meine Eltern, mein Bruder und meine Schwester kommen zu Besuch. 'Wie geht es deiner Familie?' fragt meine Mutter. 'Sehr gut! Die Kinder sind in der Schule, und mein Mann ist bei der Arbeit.'",
+      "translation": "Tonight we have a family dinner. My parents, my brother, and my sister are coming to visit. 'How is your family?' asks my mother. 'Very good! The children are at school, and my husband is at work.'",
+      "vocabulary": [
+        {"word": "Familie", "meaning": "Family"},
+        {"word": "Eltern", "meaning": "Parents"},
+        {"word": "Bruder", "meaning": "Brother"},
+        {"word": "Schwester", "meaning": "Sister"}
+      ]
+    },
+    {
+      "title": "Weekend with Friends",
+      "text": "Am Wochenende treffe ich meine Freunde im Park. Wir machen ein Picknick und spielen Fußball. 'Kennst du meinen neuen Freund Thomas?' fragt Maria. 'Er studiert auch Deutsch.'",
+      "translation": "On the weekend, I meet my friends in the park. We have a picnic and play soccer. 'Do you know my new friend Thomas?' asks Maria. 'He's also studying German.'",
+      "vocabulary": [
+        {"word": "Freunde", "meaning": "Friends"},
+        {"word": "Wochenende", "meaning": "Weekend"},
+        {"word": "Picknick", "meaning": "Picnic"},
+        {"word": "Studiert", "meaning": "Studies"}
+      ]
+    }
+  ]
+} 
